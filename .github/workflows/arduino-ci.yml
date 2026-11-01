@@ -23,7 +23,6 @@ jobs:
       fail-fast: false
       matrix:
         board:
-          - { fqbn: "arduino:avr:uno", platform: "arduino:avr", name: "Arduino Uno" }
           - { fqbn: "esp8266:esp8266:generic", platform: "esp8266:esp8266", name: "ESP8266", index-url: "http://arduino.esp8266.com/stable/package_esp8266com_index.json" }
           - { fqbn: "esp32:esp32:esp32", platform: "esp32:esp32", name: "ESP32", index-url: "https://espressif.github.io/arduino-esp32/package_esp32_index.json" }
     steps:

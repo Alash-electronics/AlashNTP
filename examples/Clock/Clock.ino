@@ -1,5 +1,9 @@
-// AlashNTP: часы. Печатает время крупно раз в секунду, день недели и дату. Время идёт само между сверками,
-// интернет нужен только раз в час. Для другого пояса: ntp.begin("pool.ntp.org", 6);  или  ntp.setTimezone(5.5);
+// [ru] AlashNTP: часы. Печатает время крупно раз в секунду, день недели и дату. Время идёт само между сверками,
+//      интернет нужен только раз в час. Для другого пояса: ntp.begin("pool.ntp.org", 6);  или  ntp.setTimezone(5.5);
+// [kk] AlashNTP: сағат. Уақытты үлкен етіп секунд сайын, апта күнін және күнін басып шығарады. Уақыт сверкалар арасында өзі жүреді,
+//      интернет сағатына бір рет қана керек. Басқа белдеу үшін: ntp.begin("pool.ntp.org", 6);  немесе  ntp.setTimezone(5.5);
+// [en] AlashNTP: a clock. Prints the time in large form once a second, the weekday and the date. The time runs by itself between syncs,
+//      the internet is needed only once an hour. For another zone: ntp.begin("pool.ntp.org", 6);  or  ntp.setTimezone(5.5);
 #include <AlashNTP.h>
 
 const char *WIFI_NAME = "ИМЯ_СЕТИ";

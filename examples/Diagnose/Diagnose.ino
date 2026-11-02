@@ -1,4 +1,6 @@
-// AlashNTP: время не приходит? Скетч проверит Wi-Fi, запросит время и скажет, что не так (нет интернета, закрыт порт 123, плохой сервер).
+// [ru] AlashNTP: время не приходит? Скетч проверит Wi-Fi, запросит время и скажет, что не так (нет интернета, закрыт порт 123, плохой сервер).
+// [kk] AlashNTP: уақыт келмей ме? Скетч Wi-Fi-ды тексереді, уақытты сұрайды және не болғанын айтады (интернет жоқ, 123 порт жабық, нашар сервер).
+// [en] AlashNTP: the time does not arrive? The sketch checks Wi-Fi, requests the time and says what is wrong (no internet, port 123 blocked, a bad server).
 #include <AlashNTP.h>
 
 const char *WIFI_NAME = "ИМЯ_СЕТИ";

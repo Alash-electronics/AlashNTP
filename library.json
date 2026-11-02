@@ -1,6 +1,6 @@
 {
   "name": "AlashNTP",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy NTP time library for ESP32/ESP8266: internet time, UTC+5 by default, non-blocking, clear tips (ru/kk/en), no NTPClient needed",
   "keywords": "NTP, time, internet time, ESP32, ESP8266, clock, time zone, date",
   "repository": {
